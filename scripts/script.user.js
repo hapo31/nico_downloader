@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        nico_downloader
-// @namespace   
+// @namespace
 // @description ニコ動落とせるやつ in HTML5プレイヤー
 // @includes    "http://www.nicovideo.jp/watch/*"
-// @excludes    
+// @excludes
 // ==/UserScript==
 
 window.onload = () => {
@@ -36,7 +36,7 @@ window.onload = () => {
         div.appendChild(p);
         div.appendChild(a);
 
-        const page = document.getElementsByClassName("CategoryRankMeta")[0];
+        const page = document.getElementsByClassName("VideoMetaOverflowMenuContainer")[0];
         page.parentNode.insertBefore(div, page);
     };
     setTimeout(f, 500);
