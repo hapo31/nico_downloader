@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Niconico downloader",
+    "description": "Get video file for nicovideo.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.nicovideo.jp/watch/*"
+            ],
+            "css":["css/style.css"],
+            "js": ["scripts/script.js"]
+        }
+    ],
+    "permissions": [
+    ]
+}
