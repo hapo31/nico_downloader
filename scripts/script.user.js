@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name        nico_downloader
+// @namespace   
+// @description ニコ動落とせるやつ in HTML5プレイヤー
+// @includes    "http://www.nicovideo.jp/watch/*"
+// @excludes    
+// ==/UserScript==
+
 window.onload = () => {
     const video = document.getElementsByTagName("video")[0];
     const f = () => {

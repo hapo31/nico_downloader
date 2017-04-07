@@ -9,7 +9,7 @@
                 "http://www.nicovideo.jp/watch/*"
             ],
             "css":["css/style.css"],
-            "js": ["scripts/script.js"]
+            "js": ["scripts/script.user.js"]
         }
     ],
     "permissions": [
